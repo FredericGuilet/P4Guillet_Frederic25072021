@@ -826,6 +826,16 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
+.col-sm-4 {
+    width: 30.3%;
+    border-style: solid;
+    /* height: 100%; */
+    /* border-block: 10px; */
+    margin: 10px;
+    /* height: max-content; */
+    height: 380px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
