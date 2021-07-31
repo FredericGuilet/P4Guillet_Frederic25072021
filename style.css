@@ -646,7 +646,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -655,12 +654,13 @@ a {
     color: #575757!important;
 }
 
+
 .container {
     max-width: 1000px;
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 18px;
 }
 
 .hero-bloc-text-sub {
@@ -678,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -776,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /* color: #F3976C!important; */
 }
 
 .btn-atomic-tangerine {
