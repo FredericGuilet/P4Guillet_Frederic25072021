@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color:white;
+    /* color:white; */
     font-size: 18px;
 }
 
@@ -836,6 +836,19 @@ h4 {
     /* border-block: 10px; */
     /* height: max-content; */
     /* height: 380px; */
+}
+
+.col-sm-5 {
+    width: 95%;
+    border-style: solid;
+    margin: 10px;
+    /* color: white; */
+    text-align: center;
+  
+}
+
+.col-sm-5 li a {
+    color:white;
 }
 
 .text-center {
