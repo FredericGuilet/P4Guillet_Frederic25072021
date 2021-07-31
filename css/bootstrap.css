@@ -2333,12 +2333,11 @@ pre code {
 
     .col-sm-4 {
         width: 30.3%;
-        border-block: black;
         border-style: solid;
-        height: : 100%;
-        border-block: 10px;
+        /* height: 100%; */
+        /* border-block: 10px; */
         margin: 10px;
-        height: max-content;
+        /* height: max-content; */
         height: 380px;
     }
     
