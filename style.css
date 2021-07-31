@@ -636,7 +636,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: black;
     background: none;
 }
 
@@ -678,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
