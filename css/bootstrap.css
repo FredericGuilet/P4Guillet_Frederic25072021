@@ -2327,9 +2327,21 @@ pre code {
     .col-sm-5 {
         width: 41.66666667%
     }
-    .col-sm-4 {
+    /* .col-sm-4 {
         width: 33.33333333%
+    } */
+
+    .col-sm-4 {
+        width: 30.3%;
+        border-block: black;
+        border-style: solid;
+        height: : 100%;
+        border-block: 10px;
+        margin: 10px;
+        height: max-content;
+        height: 380px;
     }
+    
     .col-sm-3 {
         width: 25%
     }
