@@ -728,6 +728,7 @@ h3 {
 
 h1 {
     color: #FFFFFF!important;
+    background-color:transparent;
 }
 
 h4 {
@@ -786,7 +787,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background:  #F3976C;
-    color: #525252!important;
+    color: #1C1C1C!important;
 
 }
 
