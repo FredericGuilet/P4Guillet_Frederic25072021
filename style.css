@@ -663,7 +663,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .hero-bloc-text-sub {
@@ -727,8 +727,10 @@ h3 {
 }
 
 h1 {
-    color: #FFFFFF!important;
-    background-color:transparent;
+  
+    color: #000000;
+    font-size: 48px;
+    /* background-color:transparent; */
 }
 
 h4 {
