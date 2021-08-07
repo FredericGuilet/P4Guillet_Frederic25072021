@@ -762,6 +762,12 @@ h4 {
     background-image: none;
 }
 
+
+element.style {
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
