@@ -758,6 +758,8 @@ h4 {
 .white {
     color: #FFFFFF !important;
     backface-visibility: hidden;
+    background-color: none;
+    background-image: none;
 }
 
 .portfolio-thumb {
@@ -988,8 +990,8 @@ h4 {
 
     @media (max-width: 991px) {
         .container {
-            width: 100%;
-        }
+                width: 98%;
+            }
 
         .b-parallax {
             background-attachment: scroll;
