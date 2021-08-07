@@ -760,6 +760,7 @@ h4 {
     backface-visibility: hidden;
     background-color: none;
     background-image: none;
+    background-color:rgba(0,0,0,0);
 }
 
 
