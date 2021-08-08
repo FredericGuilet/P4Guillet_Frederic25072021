@@ -1660,7 +1660,7 @@ mark {
 
 .text-center {
     text-align: center
-    .text-dark
+
 }
 
 .text-justify {
@@ -2471,7 +2471,7 @@ pre code {
     .col-sm-offset-0 {
         margin-left: 0
     }
-}
+
 
 @media (min-width:992px) {
     .col-md-1,
@@ -4388,7 +4388,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .open>.dropdown-menu {
