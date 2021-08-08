@@ -525,6 +525,10 @@ button {
     box-shadow: none;
 }
 
+.form-control:focus{
+    color:red;
+}
+
 
 
 .scrollToTop {
