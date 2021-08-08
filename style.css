@@ -488,6 +488,10 @@ button {
 
 .icon-md {
     font-size: 50px !important;
+    display:flex;
+    flex-direction: column;
+    height: 50px;
+
 }
 
 .icon-lg {
@@ -663,7 +667,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+    color:black !important;
 }
 
 
@@ -717,7 +721,7 @@ p {
     justify-content: space-evenly;
     margin: 0 auto;
     width: 90%;
-    height: 140px;
+    /* height: 140px; */
     color: black;
 }
 
