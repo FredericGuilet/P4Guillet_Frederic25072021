@@ -724,6 +724,11 @@ p {
     /* height: 140px; */
     color: black;
 }
+.FredReseauxIconesTest
+{
+    display: flex;
+    flex-direction: column;
+}
 
 h2 {
     font-size: 22px;
