@@ -1029,6 +1029,11 @@ element.style {
             padding-right: constant(safe-area-inset-right);
         } */
 
+        .center-block 
+        {
+            width:150px;
+        }
+
         .bloc-group,
         .bloc-group .bloc {
             display: block;
