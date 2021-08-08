@@ -772,7 +772,7 @@ h4 {
 .white {
     color: #FFFFFF !important;
     backface-visibility: hidden;
-    background-color: none;
+    /* background-color: none; */
     background-image: none;
     background-color:rgba(0,0,0,0);
 }
@@ -916,7 +916,7 @@ element.style {
     font-family: FontAwesome;
     font-size-adjust: none;
     font-kerning: auto;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
     font-variant-alternates: normal;
     font-variant-east-asian: normal;
     font-variant-ligatures: normal;
@@ -924,7 +924,7 @@ element.style {
     font-variant-position: normal;
     font-language-override: normal;
     font-feature-settings: normal;
-    font-variation-settings: normal;
+    /* font-variation-settings: normal; */
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -997,13 +997,13 @@ element.style {
         }
     }
 
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
         .b-parallax {
             background-attachment: scroll;
         }
     }
 
-    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
         .b-parallax {
             background-attachment: scroll;
         }
@@ -1024,10 +1024,10 @@ element.style {
             position: relative;
         }
 
-        .bloc {
+        /* .bloc {
             padding-left: constant(safe-area-inset-left);
             padding-right: constant(safe-area-inset-right);
-        }
+        } */
 
         .bloc-group,
         .bloc-group .bloc {
@@ -1038,8 +1038,8 @@ element.style {
         .bloc-fill-screen .fill-bloc-top-edge,
         .bloc-fill-screen .fill-bloc-bottom-edge {
             padding: 0 20px;
-            padding-left: constant(safe-area-inset-left);
-            padding-right: constant(safe-area-inset-right);
+            /* padding-left: constant(safe-area-inset-left); */
+            /* padding-right: constant(safe-area-inset-right); */
         }
     }
 
@@ -1218,8 +1218,11 @@ element.style {
         }
     }
 
-    @media (max-width: 767px) {
-        .bloc-mob-center-text {
+    @media (max-width: 767px)
+    {
+        .bloc-mob-center-text
+        {
             text-align: center;
         }
-    }
+    }   
+ }
